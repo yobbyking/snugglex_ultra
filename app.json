@@ -1,0 +1,14 @@
+{
+  "name": "SnuggleX-Ultra",
+  "description": "SnuggleX Ultra WhatsApp Bot",
+  "repository": "https://github.com/yobbyking/snugglex_ultra",
+  "scripts": { "start": "node index.js" },
+  "env": {
+    "SESSION_ID": {
+      "description": "Session ID from pairing site (snugglex:~xxxxxxxxxxxx)",
+      "value": "",
+      "required": true
+    }
+  },
+  "buildpacks": [{ "url": "heroku/nodejs" }]
+}
